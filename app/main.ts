@@ -184,7 +184,7 @@ import { dummies, years } from "./constants";
         {
           type: "text",
           text:
-            "In this electoral riding, {expression/1in1000} out of 1000 people accessed a food bank this year."
+            "In this electoral riding, {expression/1in1000} out of 1000 people accessed a food bank at least once this year."
         },
         {
           type: "fields",
