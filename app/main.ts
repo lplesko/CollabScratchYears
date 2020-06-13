@@ -29,7 +29,7 @@ import { dummies, years } from "./constants";
         {
           name: "1in1000",
           title: "1in1000 Popup",
-          expression: "Round((($feature.UniqueIndividuals_perc)*10),1)",
+          expression: "Round((($feature.UniqueIndividuals_perc)*10))",
           fieldInfos: [
           //the following sets will ensure that the income and housing field names appear as their designated LABEL in pie chart
           {
