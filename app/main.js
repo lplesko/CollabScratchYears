@@ -194,7 +194,7 @@ define(["require", "exports", "esri/Map", "esri/views/MapView", "esri/layers/Fea
                               {
                                 name: "1in1000",
                                 title: "1in1000 Popup",
-                                expression: "Round((($feature.UniqueIndividuals_perc)*10),1)"
+                                expression: "Round((($feature.UniqueIndividuals_perc)*10))"
                               }
                             ],
                             fieldInfos: [
