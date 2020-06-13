@@ -80,7 +80,7 @@ export function updateGrid(newData?: ChartData[], lv?: esri.FeatureLayerView, cl
   // draw highlighted cell
   if (highlighted) {
     const w = 3 * pixelRatio;
-    ctx.strokeStyle = "rgba(50,50,50,1)";
+    ctx.strokeStyle = "#00AEC7";
     ctx.lineWidth = w;
     ctx.strokeRect(highlighted.col * cellWidth + w / 2, highlighted.row * cellHeight + w / 2, cellWidth - w, cellHeight - w);
   } else {
